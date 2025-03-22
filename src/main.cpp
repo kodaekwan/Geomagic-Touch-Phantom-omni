@@ -1,9 +1,13 @@
 /*
-* Reference: https://github.com/danepowell/phantom_omni
-* Original Author: danepowell
-* License: MIT
-* Modified by DaeKwan on 2025-03-22: removed ROS dependency and added shared memory support
-*/
+ * File        : main.cpp
+ * Author      : DaeKwan (kodaekwan@dongguk.edu)
+ * Created     : 2025-03-22
+ * Description : Standalone C++ control loop for Phantom Omni (no ROS)
+ * 
+ * Copyright (c) 2025 DaeKwan
+ * License     : MIT License
+ * Reference   : https://github.com/danepowell/phantom_omni (Original Author: danepowell)
+ */
 #include "main.hpp"
 
 int calibrationStyle = 0;

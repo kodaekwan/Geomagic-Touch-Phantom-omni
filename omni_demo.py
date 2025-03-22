@@ -1,3 +1,14 @@
+# -----------------------------------------------------------
+# File        : omni_demo.py
+# Author      : DaeKwan (kodaekwan@dongguk.edu)
+# Created     : 2025-03-22
+# Description : Python client for interacting with Omni device via shared memory
+# 
+# Copyright (c) 2025 DaeKwan
+# License     : MIT License
+# Reference   : https://github.com/danepowell/phantom_omni
+# -----------------------------------------------------------
+
 from utils.omni_shm import *
 import time
 import numpy as np

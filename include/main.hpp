@@ -1,3 +1,12 @@
+/*
+ * File        : main.hpp
+ * Author      : DaeKwan (kodaekwan@dongguk.edu)
+ * Created     : 2025-03-22
+ * Description : Data structures and utility classes for Phantom Omni control
+ * 
+ * Copyright (c) 2025 DaeKwan
+ * License     : MIT License
+ */
 #include <string.h>
 #include <stdio.h>
 #include <math.h>

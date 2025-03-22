@@ -1,6 +1,12 @@
-# writer    : kodaekwan Ph.D student
-# email     : kodaekwan@dongguk.edu
-
+# -----------------------------------------------------------
+# File        : omni_shm.py
+# Author      : DaeKwan (kodaekwan@dongguk.edu)
+# Created     : 2025-03-22
+# Description : Shared memory structure and access logic for Phantom Omni
+# 
+# Copyright (c) 2025 DaeKwan
+# License     : MIT License
+# -----------------------------------------------------------
 #! pip install sysv-ipc
 import ctypes
 import sysv_ipc
