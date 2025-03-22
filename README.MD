@@ -24,7 +24,7 @@ networkingMode=mirrored
 - SDK Download: [OpenHaptics for Linux Developer Edition v3.4](https://support.3dsystems.com/s/article/OpenHaptics-for-Linux-Developer-Edition-v34?language=en_US)
 
 ### Geomagic Touch Driver
-- Driver file: `geomagic_touch_device_driver_2016.1-1-amd64.zip`
+- Driver file: `geomagic_touch_device_driver_2016.1-1-amd64.tar.gz`(https://github.com/sunghowoo/Control-of-two-UR5s-by-two-phantom-omnies-)
 
 ---
 
