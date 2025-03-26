@@ -33,6 +33,10 @@ HDCallbackCode HDCALLBACK omni_state_callback(void* pUserData){
 	hdGetDoublev(HD_CURRENT_POSITION, omni_state->position);
 	hdGetDoublev(HD_CURRENT_JOINT_ANGLES, omni_state->joints);
 
+
+	hdGetDoublev(HD_CURRENT_TRANSFORM,omni_state->transform);
+
+
 	hduVector3Dd vel_buff(0, 0, 0);
 
 	vel_buff = (omni_state->position * 3 - 4 * omni_state->pos_hist1

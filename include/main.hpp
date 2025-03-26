@@ -47,6 +47,7 @@ typedef struct OmniState_ {
 	int buttons_prev[2];
 	bool lock;
 	hduVector3Dd lock_pos;
+	double transform[16];
 } OmniState_t;
 
 typedef struct shmVector3Dd_
@@ -75,6 +76,7 @@ typedef struct SHMOmniState_ {
 	int buttons_prev[2];
 	bool lock;
 	shmVector3Dd_t lock_pos;
+	double transform[16];
 } SHMOmniState_t;
 
 typedef struct SHMJointState_ {

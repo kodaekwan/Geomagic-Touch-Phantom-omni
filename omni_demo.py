@@ -24,6 +24,8 @@ if __name__ =="__main__":
 
     for _ in range(1000):#10s 
         omni_shm.update();
+        TM = np.ndarray((4,4), dtype=np.float64, buffer=omni_shm.getValue().omnistate.transform).T;
+        print(TM);
     
         jointstate = omni_shm.getValue().jointstate;
         buttonevent = omni_shm.getValue().buttonevent;

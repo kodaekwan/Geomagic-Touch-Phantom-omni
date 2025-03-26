@@ -35,7 +35,9 @@ class SHMOmniState_t(ctypes.Structure):
     ('buttons',ctypes.c_int*2),
     ('buttons_prev',ctypes.c_int*2),
     ('lock',ctypes.c_bool),
-    ('lock_pos',shmVector3Dd_t),]
+    ('lock_pos',shmVector3Dd_t),
+    ('transform',ctypes.c_double*16),
+    ]
 
 class SHMJointState_t(ctypes.Structure):
 	_fields_ =  [   ('stamp', ctypes.c_uint64),
