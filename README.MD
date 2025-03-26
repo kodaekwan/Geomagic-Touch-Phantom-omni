@@ -68,7 +68,7 @@ make
 ### C++ Side
 
 ```bash
-./build/omni shm=777 hz=1000
+./omni shm=777 hz=1000
 ```
 
 ### Python Side
