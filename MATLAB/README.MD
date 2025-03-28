@@ -1,4 +1,4 @@
-# Omni Shared Memory Interface
+# Omni Shared Memory Interface(for Only Linux)
 
 ## ▶️ Pre-Run
 
