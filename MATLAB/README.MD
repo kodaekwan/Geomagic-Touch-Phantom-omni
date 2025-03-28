@@ -12,7 +12,7 @@ Compile the interface using the following MATLAB command:
 mex omni_shm_interface.cpp
 ```
 
-## Read Transform (MATLAB Command)
+## Read (MATLAB Command)
 To read data from shared memory, use the following MATLAB command:
 ```matlab
 position = omni_shm_interface(777, 'read position');
@@ -34,7 +34,7 @@ button = omni_shm_interface(777, 'read button');
 disp(button);
 ```
 
-## Write Transform (MATLAB Command)
+## Write (MATLAB Command)
 To write data to shared memory, use the following MATLAB command:
 ```matlab
 omni_shm_interface(777, 'write', [0.5 0.5 0.5]);
