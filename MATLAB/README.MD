@@ -1,5 +1,13 @@
 # Omni Shared Memory Interface
 
+## ▶️ Pre-Run
+
+### C++ Side
+
+```bash
+./omni shm=777 hz=100
+```
+
 ## Setup
 
 Copy the following files into your working directory:
